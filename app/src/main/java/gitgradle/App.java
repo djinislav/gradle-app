@@ -5,10 +5,15 @@ package gitgradle;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!!";
+        return "Hello World!!!!!!!";
+    }
+
+    public String unused() {
+        return "nothing";
     }
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println("This is a new line");
     }
 }
