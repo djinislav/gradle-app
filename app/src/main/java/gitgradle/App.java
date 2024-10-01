@@ -9,7 +9,7 @@ public class App {
     }
 
     public String unused() {
-        return "nothing";
+        return "nothing new but something newer";
     }
 
     public static void main(String[] args) {
