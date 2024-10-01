@@ -9,7 +9,7 @@ public class App {
     }
 
     public String unused() {
-        return "nothing";
+        return "nothing but I will accept only this";
     }
 
     public static void main(String[] args) {
