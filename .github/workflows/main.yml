@@ -18,7 +18,7 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v4
     - name: Build with Gradle Wrapper
-      run: ./gradlew build
+      run: chmod +x ./gradlew build
 
   dependecy-submissions:
     runs-on: ubuntu-latest
